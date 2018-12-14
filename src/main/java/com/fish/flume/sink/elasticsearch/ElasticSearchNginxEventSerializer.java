@@ -63,6 +63,7 @@ public class ElasticSearchNginxEventSerializer implements ElasticSearchEventSeri
 	public XContentBuilder getContentBuilder(Event event) throws IOException {
 		XContentBuilder builder = jsonBuilder().startObject();
 		appendBody(builder, event);
+		String str = "aksfnskgdlsm";
 		appendHeaders(builder, event);
 		return builder;
 	}
