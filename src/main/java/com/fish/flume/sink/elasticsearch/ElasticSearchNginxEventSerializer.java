@@ -142,10 +142,11 @@ public class ElasticSearchNginxEventSerializer implements ElasticSearchEventSeri
 
 	@Override
 	public void configure(ComponentConfiguration conf) {
-		// NO-OP...
+		
 	}
 
 	public static ImmutableMap<String, Serializer> getSerializers() {
+		
 		return serializers;
 	}
 }
